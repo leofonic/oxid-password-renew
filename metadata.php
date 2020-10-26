@@ -7,7 +7,7 @@ $aModule = array(
         'de'=>'Wenn der Kunde ein leeres Passwort besitzt, muss er beim Login ein neues erstellen.',
         'en'=>'If customer has an empty password, he is forced to assign a new one at login',
     ),
-    'version'     => '1.0.0',
+    'version'     => '1.0.1',
     'url'         => 'http://zunderweb.de',
     'email'       => 'info@zunderweb.de',
     'author'      => 'Zunderweb',
