@@ -1,0 +1,34 @@
+{
+    "name":        "zunderweb/oxid-password-renew",
+    "description": "OXID eShop: Force new password if password field is empty",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "homepage":    "https://www.zunderweb.de",
+    "license":     [
+        "MIT"
+    ],
+    "authors":     [
+        {
+            "name":  "zunderweb",
+            "email": "info@zunderweb.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "zunderweb/password-renew"
+        }
+    },
+    "require":     {
+    },
+    "autoload":    {
+        "psr-4": {
+            "zunderweb\\password_renew\\": "../../../source/modules/zunderweb/password-renew"
+        }
+    }
+}
+
+
